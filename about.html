@@ -1,0 +1,65 @@
+<!--TAke this and make it your own with pics and colors!-->
+<html>
+   <head>
+    <!--Name your Resturant Below-->
+     <title>Faking Cane's | About</title>
+     <link rel = "stylesheet" href = "navbar0.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@700&family=RocknRoll+One&family=Russo+One&display=swap" rel="stylesheet">
+     <!--The menu looked weird on the side, so I figured out how to make it slide with JS-->
+     <script>
+     function openNav(){
+         document.getElementById("menuNav").style.visibility = "visible";
+    //   document.getElementById("menuNav").style.visiblility = "visible";
+     }
+     function closeNav(){
+      // document.getElementById("menuNav").style.width = "0px";
+      document.getElementById("menuNav").style.visibility = "hidden";
+      //   document.getElementById("menuNav").style.visiblity = "hidden";
+     }
+     </script>
+</head>
+   <body>
+     <!--Update with Location, About, Staff, Events, Catering Etc.-->
+     <ul id = "topNav">
+       <li><a href = "index.html">home</a></li>
+       <li><a href = "contact.html">contact</a></li>
+       <li><a href = "about.html">about</a></li>
+       <li><a href = "events.html">rentals</a></li>
+       <li><a href = "https://www.raisingcanes.com/">real food?</a></li>
+       <li><input type="button" value="Menu!" onclick="openNav()"></a></li>
+     </ul>
+
+     <!--5 Menu items that make sense with your theme-->
+     <ul id = "menuNav">
+       <li class="items menuButton"><input type = "button" value = "Close Menu" onclick = "closeNav()"></li>
+       <li class="items"><a href = "box.html">Box Combo</a></li>
+       <li class="items"><a href = "3finger.html">3 Finger Combo</a></li>
+       <li class="items"><a href = "caniac.html">Caniac Combo</a></li>
+       <li class="items"><a href = "sandwich.html">Sandwich Combo</a></li>
+       <li class="items"><a href = "kids.html">Kid's Combo</a></li>
+       <li class="items"><a href = "drinks.html">Drinks</a></li>
+     </ul>
+
+     <!--Restaurant Content, Changes for the various pages-->
+     <div>
+        <center>
+          <h1 class = "titles">About Us</h1>
+          <table>
+            <tr>
+              <td><img src="aboutpic.jpg" alt="Faking Cane's Logo" width="400px" id="AboutPic" width = "200px" height="200px"></td>
+              <td><img src="aboutpic2.jpg" alt="Faking Cane's Logo" width="400px" id="AboutPic" width = "200px" height="200px"></td>
+              <td><img src="aboutpic3.jpg" alt="Faking Cane's Logo" width="400px" id="AboutPic" width = "200px" height="200px"></td>
+            </tr>
+          </table>
+           <div id="sect02">
+           <h2>What sort of restaraunt is this?</h2>
+           <p>A unique gem located in the middle of nowhere, Faking Cane's is the first in a line of new restaraunts
+           that sell classic dishes from fast food companies all over the US-- but in plastic! Our plasticized products
+           can not only be used for pranks, but are delightful for display. We're working on biodegradeable food soon to help
+           our envidonmental efforts! Come check us out!</p>
+         </div>
+        </center>
+     </div>
+   </body>
+</html>

@@ -1,0 +1,70 @@
+<!--TAke this and make it your own with pics and colors!-->
+<html>
+   <head>
+    <!--Name your Resturant Below-->
+     <title>Faking Cane's | Rentals</title>
+     <link rel = "stylesheet" href = "navbar0.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@700&family=RocknRoll+One&family=Russo+One&display=swap" rel="stylesheet">
+     <!--The menu looked weird on the side, so I figured out how to make it slide with JS-->
+     <script>
+     function openNav(){
+         document.getElementById("menuNav").style.visibility = "visible";
+    //   document.getElementById("menuNav").style.visiblility = "visible";
+     }
+     function closeNav(){
+      // document.getElementById("menuNav").style.width = "0px";
+      document.getElementById("menuNav").style.visibility = "hidden";
+      //   document.getElementById("menuNav").style.visiblity = "hidden";
+     }
+     function easteregg(){
+       alert("an easter egg... because why not?");
+     }
+     </script>
+</head>
+   <body>
+     <!--Update with Location, About, Staff, Events, Catering Etc.-->
+     <ul id = "topNav">
+       <li><a href = "index.html">home</a></li>
+       <li><a href = "contact.html">contact</a></li>
+       <li><a href = "about.html">about</a></li>
+       <li><a href = "events.html">rentals</a></li>
+       <li><a href = "https://www.raisingcanes.com/">real food?</a></li>
+       <li><input type="button" value="Menu!" onclick="openNav()"></a></li>
+     </ul>
+
+     <!--5 Menu items that make sense with your theme-->
+     <ul id = "menuNav">
+       <li class="items menuButton"><input type = "button" value = "Close Menu" onclick = "closeNav()"></li>
+       <li class="items"><a href = "box.html">Box Combo</a></li>
+       <li class="items"><a href = "3finger.html">3 Finger Combo</a></li>
+       <li class="items"><a href = "caniac.html">Caniac Combo</a></li>
+       <li class="items"><a href = "sandwich.html">Sandwich Combo</a></li>
+       <li class="items"><a href = "kids.html">Kid's Combo</a></li>
+       <li class="items"><a href = "drinks.html">Drinks</a></li>
+     </ul>
+
+     <!--Restaurant Content, Changes for the various pages-->
+     <div>
+        <center>
+          <h1 class = "titles">Rentals</h1>
+          <img src="tailgate-hero.jpg" onclick="easteregg()" width="500px" height="200px">
+          <h4>For some of our more intricate foods, especially in large quantities, our fake catering service provides for all your needs at an incredibly low price!</h4>
+          <h4>See our schedule below and call us with your rental slot</h4>
+          <table style="color:white;">
+            <th>
+              <tr><td>Cole Slaw trays</td><td>Chicken Finger Trays</td></tr>
+            </th>
+            <tbody>
+              <tr><td>ALL PREVIOUS DATES FILLED</td><td>ALL PREVIOUS DATES FILLED</td></tr>
+              <tr><td>May 10, 2021</td><td>May 10, 2021</td></tr>
+              <tr><td>May 11, 2021</td><td>May 11, 2021</td></tr>
+              <tr><td>May 12, 2021</td><td>FILLED</td></tr>
+              <tr><td>May 13, 2021</td><td>May 13, 2021</td></tr>
+              <tr><td>FILLED</td><td>May 14, 2021</td></tr>
+            </tbody>
+          </table>
+        </center>
+     </div>
+   </body>
+</html>

@@ -1,0 +1,102 @@
+body{
+  margin: 0px;
+  background-color: 900000;
+}
+
+#topNav{
+  background-color: 303030;
+  height: 40px;
+  margin: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+#topNav li{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+#topNav li a{
+     text-decoration: none;
+     font-family:"Russo One";
+     font-size: 20px;
+     color: white;
+     display: block;
+}
+
+#topNav li a:hover{
+  text-align: center;
+  color: white;
+  height: 30px;
+  width: 120px;
+  background-color: red;
+
+}
+
+#menuNav{
+    text-decoration: none;
+    background-color: gold;
+    margin: 0px;
+    float: left;
+    height: 100%;
+    visibility: hidden;
+    z-index: 100;
+}
+
+#menuNav li{
+  list-style: none;
+  font-size: 20px;
+  font-family: "Russo One";
+  height: 16%;
+  width:150px;
+  padding-right:10px;
+}
+.items a{
+  text-decoration: none;
+  color:red;
+  display: block;
+  height:80px;
+}
+.items a:hover{
+  color:gold;
+  background-color:white;
+}
+
+
+.titles{
+  color: white;
+  font-family: "Lobster";
+  font-size: 50px;
+}
+h2{
+  color: white;
+}
+p{
+  font-family: 'RocknRoll One', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+}
+#Logo{
+  position: relative;
+  bottom: 100px;
+}
+#sect01{
+  position: relative;
+  bottom: 190px;
+}
+#sect02{
+  position: relative;
+  bottom: 10px;
+}
+h4{
+  font-family: 'RocknRoll One', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
